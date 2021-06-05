@@ -1,0 +1,176 @@
+body {
+  background-color: black;
+  display: grid;
+  justify-content: center;
+  place-items: center;
+}
+
+div {
+  background-color: white;
+  height: 6.25rem;
+  width: 6.25rem;
+  position: absolute;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+}
+
+.master {
+  background-color: grey;
+  position: relative;
+  height: 18.75rem;
+  width: 18.75rem;
+}
+
+#ff {
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+#fs {
+  position: absolute;
+  left: 100px;
+  top: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+#ft {
+  position: absolute;
+  left: 200px;
+  top: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+#sf {
+  position: absolute;
+  left: 0;
+  top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+#ss {
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+#st {
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+#tf {
+  position: absolute;
+  left: 0;
+  top: 200px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+#ts {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+#tt {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+div:hover {
+  background-color: rgb(192, 192, 192);
+}
+
+div:active {
+  color: black;
+}
+
+span {
+  color: white;
+}
+
+.player1 {
+  position: relative;
+  right: 100px;
+  top: 10px;
+  visibility: visible;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: blue;
+}
+.player2 {
+  position: relative;
+  left: 100px;
+  bottom: 10px;
+  visibility: hidden;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: green;
+}
+.player-win {
+  position: relative;
+  bottom: 40px;
+  visibility: hidden;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+h3 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  color: white;
+  z-index: 2;
+  font-size: 2rem;
+}
+.background-image {
+  background-image: url("../images/fascinating.webpm");
+  width: 99.5%;
+  height: 99.5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+}
